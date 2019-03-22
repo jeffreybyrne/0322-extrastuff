@@ -21,5 +21,20 @@ const words = {
   school: "A place of learning.",
   'ice cream': "A delicious milk-based dessert."
 }
-console.log(materials)
-console.log(words)
+
+// num = 16
+// if num > 10:
+//   print("{} is greater than 10.".format(num))
+// elif num == 10:
+//   print("{} is exactly 10.".format(num))
+// else:
+//   print("{} must be less than 10.".format(num))
+
+const num = 16;
+if (num > 10) {
+  console.log(`${num} is greater than 10.`)
+} else if (num == 10) {
+  console.log(`${num} is exactly 10.`)
+} else {
+  console.log(`${num} must be less than 10.`)
+}
