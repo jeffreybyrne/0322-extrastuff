@@ -38,3 +38,10 @@ if (num > 10) {
 } else {
   console.log(`${num} must be less than 10.`)
 }
+
+// for x in range(0,10):
+//   print("Doing the same thing over and over.")
+
+for (x = 0; x < 10; x++) {
+  console.log("Doing the same thing over and over.")
+}
