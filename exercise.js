@@ -80,3 +80,12 @@ for (height = 3; height < 15; height++) {
     console.log("You are too short to ride this rollercoaster.")
   }
 }
+
+// containers = ['purse', 'wallet', 'backback']
+// for container in containers:
+//   print(container)
+
+const containers = ['purse', 'wallet', 'backback'];
+containers.forEach(function(container) {
+  console.log(container)
+})
