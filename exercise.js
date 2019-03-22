@@ -54,3 +54,15 @@ const base = 5;
 for (num1 = 0; num1 < 20; num1++) {
   console.log(num1 + base)
 }
+
+// total = 0
+// for num in range(0,100):
+//   total += num
+//
+// print(total)
+
+let total = 0;
+for (num2 = 0; num2 < 100; num2++) {
+  total += num2;
+}
+console.log(total);
