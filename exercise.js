@@ -66,3 +66,17 @@ for (num2 = 0; num2 < 100; num2++) {
   total += num2;
 }
 console.log(total);
+
+// for height in range(3,15):
+//   if height > 9:
+//     print("You can get on the rollercoaster!")
+//   else:
+//     print("You are too short to ride this rollercoaster.")
+
+for (height = 3; height < 15; height++) {
+  if (height > 9) {
+    console.log("You can get on the rollercoaster!")
+  } else {
+    console.log("You are too short to ride this rollercoaster.")
+  }
+}
