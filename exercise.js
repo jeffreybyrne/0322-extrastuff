@@ -45,3 +45,12 @@ if (num > 10) {
 for (x = 0; x < 10; x++) {
   console.log("Doing the same thing over and over.")
 }
+
+// base = 5
+// for num in range(0,20):
+//   print(num + base)
+
+const base = 5;
+for (num1 = 0; num1 < 20; num1++) {
+  console.log(num1 + base)
+}
