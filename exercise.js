@@ -89,3 +89,13 @@ const containers = ['purse', 'wallet', 'backback'];
 containers.forEach(function(container) {
   console.log(container)
 })
+
+// def hello_world():
+//   return "Hello world!"
+//
+// hello_world()
+
+function hello_world() {
+  return "Hello world!";
+}
+console.log(hello_world());
